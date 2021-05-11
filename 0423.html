@@ -10,101 +10,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        hr {
-            margin: 80px 0;
-        }
-
-        .my-text {
-            margin-top: 100px;
-        }
-
-        .my-button {
-            margin-bottom: 180px;
-        }
-
-        .nav-icon {
-            font-size: 24px;
-            padding: 15px;
-            color: black;
-        }
-
-        .cube-img {
-            padding: 5px;
-        }
     
-        .shooting-s{
-            width: 64px;
-            height: 64px;
-            background-color:rgb(224, 231, 255);
-            color: rgb(99, 102, 241);
-        }
-
-        .bt{
-            background-color:rgb(99, 102, 241);
-            width: 50px;
-            height: 3px;
-            border-radius: 5px;
-        }
-
-        .tt{
-            background-color:white;
-            opacity:0.1;
-            /* border: none; */
-        }
-
-        
-        .Swatches{
-            width: 24px;
-            height: 24px;
-            background-color: black;
-            border-radius: 20px;
-            border-style: double;
-            border-color: gray;
-            border-width: 2px;
-        }
-        .Swatches-purple{
-            background-color: rgb(99, 102, 241);
-        }
-        .Swatches-w{
-            background-color:white;
-        }
-        select{
-            margin: 0 10px;
-            padding: 0 20px;
-            border-radius: 5px;
-            border-color: silver;
-        }
-        .grap{
-            position: absolute;
-            opacity: 0.3;
-            width: 100%;
-           
-        }
-        .forms{
-            background-color:white;
-            border-radius: 10px;
-            display: flex;
-            justify-content: right;
-            margin-top:15%;
-        }
-        .message-b{
-            width: 100%;
-            height: 200px;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="./css/0423.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
         <a class="navbar-brand col-7 text-left" href="#">
-            <img src="./logo.svg" width="180" height="60" alt="">
+            <img src="./img/logo.svg" width="180" height="60" alt="">
         </a>
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -541,7 +457,7 @@
             <hr class="tt">
 
         </div>
-        <div class="row position-relative">
+        <div class="position-relative">
             <div class="grap">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8406.092131032008!2d120.72005206193893!3d24.245625350560083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34691a0e18b5e8b3%3A0x2e4fcfb38b649032!2z6LGQ5Y6f6LuK56uZ!5e0!3m2!1szh-TW!2stw!4v1619424881433!5m2!1szh-TW!2stw" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
@@ -572,16 +488,36 @@
     </main>
     <footer>
       <div class="container">
-          <div class="row">
-              <div class="col-12 col-md-6 col-lg-3"> 
-                <h5>數位方塊</h5>
+          <div class="row footer-top">
+              <div class="col-12 col-md-6 col-lg-3 text-center ">
+                <svg class="w-10 h-10 text-white digit-photo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #162446;
+                        }
+        
+                        .cls-2 {
+                          fill: #fff;
+                        }
+                      </style>
+                    </defs>
+                    <title>資產 2</title>
+                    <g id="圖層_2" data-name="圖層 2">
+                      <g id="圖層_1-2" data-name="圖層 1">
+                        <circle class="cls-1" cx="20" cy="20" r="20"></circle>
+                        <path class="cls-2" d="M20,7l7.13,4.11a7.91,7.91,0,0,1,3.95,6.84v6.8l-8.61-5V18.32l7.37,4.26V18.63a7.89,7.89,0,0,0-3.95-6.85L21.28,9.1V33.25L9,26.14V13.35l5.89,3.4a7.91,7.91,0,0,1,3.95,6.85v4.76l-1.23-.71V24.31a7.92,7.92,0,0,0-4-6.85l-3.42-2v9.94L20,31.11Z"></path>
+                      </g>
+                    </g>
+                </svg> 
+                <span>數位方塊</span>
                 <p>Air plant banjo lyft occupy retro adaptogen indego
                 </p>
               </div>
               <div class="col-12 col-md-6 col-lg-9 ">
                   <div class="row footer-r d-flex text-center">
                         <div class="col-12 col-md-6 col-lg-3">  
-                            <p>1CATEGORIES</p>
+                            <p>CATEGORIES</p>
                             <p>First Link</p>
                             <p>Second Link</p>
                             <p>Third Link</p>
@@ -589,7 +525,7 @@
                             <p>CATEGORIES</p>   
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">  
-                            <p>2CATEGORIES</p>
+                            <p>CATEGORIES</p>
                             <p>First Link</p>
                             <p>Second Link</p>
                             <p>Third Link</p>
@@ -597,7 +533,7 @@
                             <p>CATEGORIES</p>
                         </div>
                         <div class="col-12 col-md-6 col-lg-3">  
-                            <p>3CATEGORIES</p>
+                            <p>CATEGORIES</p>
                             <p>First Link</p>
                             <p>Second Link</p>
                             <p>Third Link</p>
@@ -614,8 +550,35 @@
                         </div>
                     </div>
               </div>
-          </div>
+          </div>          
       </div>
+      <div class="footer-bot">
+            <div class="container">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-12 text-center col-sm-7 text-sm-left">
+                        <p>© 2021 Tailblocks —  @deng  
+                        </p>
+                    </div>
+                    <div class="col-12 text-center col-sm-5 text-sm-right">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </div>
+                </div>            
+            </div>
+        </div>
     </footer>
     
     
