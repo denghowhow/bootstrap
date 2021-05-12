@@ -28,7 +28,7 @@
             width: 100%;
             height: 100vh;
             background-color:rgb(243, 244, 246);
-            border-radius: 10px;              
+            border-radius: 10px;                     
         }
         /* .schedule{
             width: 100%;
@@ -94,11 +94,21 @@
             transform: translateY(-50%);
             z-index: 2;
         }
-        
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        input{
+            width: 32px;
+            height: 24px;
+            padding: 0 8px;
+            margin: 0 8px;
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+    <nav class="container navbar navbar-expand-lg navbar-light text-center">
         <a class="navbar-brand col-7 text-left" href="#">
             <img src="./img/logo.svg" width="180" height="60" alt="">
         </a>
@@ -155,14 +165,58 @@
                 <hr class="my-4">
                 <p class="lead">訂單詳細</p>
                 <div class="row">
-                    <div class="col-12">
-
+                    <div class="col-6">
+                        <img src="https://i.imgur.com/EEguU02.jpg" alt="">
+                        <span>Chicken momo</span>
+                        <span class="">#41551</span>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                       <span>-</span>
+                       <input placeholder="1">
+                       <span>+</span>
+                       <span>$ 10.50</span>
+                    </div>
+                </div>                            
+                <hr class="my-4">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="https://i.imgur.com/Uv2Yqzo.jpg" alt="">
+                        <span>Spicy Mexican potatoes</span>
+                        <span class="">#66999</span>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <span>-</span>
+                       <input placeholder="1">
+                       <span>+</span>
+                       <span>$ 10.50</span>
+                    </div>
+                </div>
+                <hr class="my-4">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="https://i.imgur.com/xbTAITF.jpg" alt="">
+                        <span>Breakfast</span>
+                        <span class="">#86577</span>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <span>-</span>
+                        <input placeholder="1">
+                        <span>+</span>
+                        <span>$ 10.50</span>
+                    </div>
+                </div>   
+                <hr class="my-4">      
+                <div class="row d-flex justify-content-between">
+                    <div class="col-6 d-flex">
+                        <i class="fa fa-arrow-left text-sm pr-2 pt-1"></i>
+                        <p>返回購物</p>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <a class="btn btn-primary btn-lg px-5 " href="#" role="button">下一步</a>
                     </div>
                 </div>
                             
-                <hr class="my-4">
-                <p>返回購物</p>            
-                <a class="btn btn-primary btn-lg" href="#" role="button">下一步</a>
+                
             </div>
         </div>
     </main>    
